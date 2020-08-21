@@ -1,0 +1,10 @@
+const friends = ['Mango', 'Kiwi', 'Roxi', 'Peter'];
+console.log(friends);
+console.log(friends.length);
+console.table(friends);
+const lastIndex = friends.length - 1;
+console.log(lastIndex);
+friends[3] = 'John';
+console.table(friends);
+friends[2] = ['Anna', 'Barbara'];
+console.table(friends);
