@@ -285,18 +285,44 @@
 
 // В переменной day лежит какое - то число из интервала от 1 до 31.
 // Определите в какую декаду месяца попадает это число(в первую, вторую или третью).
-const day = Math.round(Math.random() * (50 - 1) + 1);
-if (day >= 1 && day <= 10) {
-  console.log('first');
-} else if (day >= 11 && day <= 20) {
-  console.log('second');
-} else if (day >= 21 && day <= 31) {
-  console.log('third');
-} else {
-  console.log('error');
-}
+// const day = Math.round(Math.random() * (50 - 1) + 1);
+// if (day >= 1 && day <= 10) {
+//   console.log('first');
+// } else if (day >= 11 && day <= 20) {
+//   console.log('second');
+// } else if (day >= 21 && day <= 31) {
+//   console.log('third');
+// } else {
+//   console.log('error');
+// }
 // В переменной month лежит какое - то число из интервала от 1 до 12.
 // Определите в какую пору года попадает этот месяц(зима, лето, весна, осень).
+// const month = Math.round(Math.random() * (12 - 1) + 1);
+// switch (month) {
+//   case 1:
+//   case 2:
+//   case 12:
+//     console.log('winter');
+//     break;
+//   case 3:
+//   case 4:
+//   case 5:
+//     console.log('spring');
+//     break;
+//   case 6:
+//   case 7:
+//   case 8:
+//     console.log('summer');
+//     break;
+//   case 9:
+//   case 10:
+//   case 11:
+//     console.log('fall');
+//     break;
+//   default:
+//     console.log('error');
+// }
+// console.log(month);
 
 // Дана строка, состоящая из символов, например, 'abcde'.
 // Проверьте, что первым символом этой строки является буква 'a'.Если это так - выведите 'да', в противном случае выведите 'нет'.
