@@ -91,8 +91,20 @@ const getSortedUniqueSkills = array =>
     .reduce((prev, cur) => {
       return [...prev, ...cur.skills];
     }, [])
-    .sort()
-    .filter((item, idx, arr) => item !== arr[idx - 1]);
+    //     .sort()
+    //     .filter((item, idx, arr) => item !== arr[idx - 1]);
+    .filter((skill, ind, arr) => arr.indexOf(skill) === ind)
+    .sort();
+
+// const getSortedUniqueSkills = users =>
+//   users
+//     .reduce((allSkills, { skills } = user) => {
+//       // console.log(skills);
+//       allSkills.push(skills);
+//       return allSkills.flat();
+//     }, [])
+//     .filter((skill, ind, arr) => arr.indexOf(skill) === ind)
+//     .sort();
 
 console.log(getSortedUniqueSkills(users));
 /* [ 'adipisicing', 'amet',

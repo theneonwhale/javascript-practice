@@ -226,10 +226,10 @@
 // }
 // list([{ name: 'Bart' }, { name: 'Lisa' }, { name: 'Maggie' }]);
 
-function kebabize(str) {
-  const arr = str.split('');
-  // return
-}
+// function kebabize(str) {
+// const arr = str.split('');
+// return
+// }
 
 // Modify the kebabize function so that it converts a camel case string into a kebab case.
 
@@ -238,3 +238,6 @@ function kebabize(str) {
 // Notes:
 
 // the returned string should only contain lowercase letters
+
+// let foo = 'ten' * 2;
+// console.log(typeof null);
