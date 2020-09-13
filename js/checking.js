@@ -241,3 +241,8 @@
 
 // let foo = 'ten' * 2;
 // console.log(typeof null);
+// function aloha() {
+//   return 'aloha';
+// }
+// console.log(aloha.name);
+// console.log(aloha.prototype.toString());
