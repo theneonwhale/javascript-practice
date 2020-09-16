@@ -9,6 +9,21 @@
 
   <body>
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+
+    <table class="transaction-table js-transaction-table">
+      <thead>
+        <tr>
+          <th>ID транзакции</th>
+          <th>Сумма</th>
+          <th>Дата</th>
+          <th>Кто</th>
+          <th>Тип транзации</th>
+          <th>Имя счёта</th>
+          <th>Номер счёта</th>
+        </tr>
+      </thead>
+    </table>
+
     <label>
       Число
       <input type="number" data-value />
@@ -41,7 +56,7 @@
         <a href="" class="site-nav__link">О нас</a>
       </li>
       <li class="site-nav__item">
-        <a href="" class="site-nav__link">Портфолио</a>
+        <a href="/portfolio" class="site-nav__link">Портфолио</a>
       </li>
       <li class="site-nav__item">
         <a href="" class="site-nav__link">Контакты</a>
@@ -74,6 +89,17 @@
       <button type="button" data-action="remove">Удалить</button>
       <button type="button" data-action="edit" data-x="y">Редактировать</button>
     </div>
+
+    <!-- Колорпикер -->
+    <div class="color-picker js-color-picker"></div>
+
+    <p><a href="/index.html">На главную</a></p>
+
+    <div class="js-products"></div>
+
+    <p><a href="/index.html">На главную</a></p>
+
+    <h1 class="title">Это <span>заголовок</span></h1>
 
     <!-- Тут добавляем фрагменты в главный HTML-файл страницы. -->
 
@@ -141,14 +167,14 @@
     <!-- <script src="./js/vebinar11-12/ex9-m6.js" type="module"></script> -->
     <!-- Модуль 7 DOM -->
     <!-- <script src="./js/vebinar13-14/ex1-m7.js" type="module"></script> -->
-    <script src="./js/vebinar13-14/ex2-m7.js" type="module"></script>
+    <!-- <script src="./js/vebinar13-14/ex2-m7.js" type="module"></script> -->
     <!-- <script src="./js/vebinar13-14/ex3-m7.js" type="module"></script> -->
     <!-- <script src="./js/vebinar13-14/ex4-m7.js" type="module"></script> -->
     <!-- <script src="./js/vebinar13-14/ex5-m7.js" type="module"></script> -->
     <!-- <script src="./js/vebinar13-14/ex6-m7.js" type="module"></script> -->
     <!-- <script src="./js/vebinar13-14/ex7-m7.js" type="module"></script> -->
     <!-- <script src="./js/vebinar13-14/ex8-m7.js" type="module"></script> -->
-    <!-- <script src="./js/vebinar13-14/ex9-m7.js" type="module"></script> -->
+    <script src="./js/vebinar13-14/ex9-m7.js" type="module"></script>
 
     <!-- Задачи -->
     <!-- Модуль 1 Синтаксис и примитивы -->
